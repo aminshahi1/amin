@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const { check, validationResult } = require('express-validator');
-let User1 = require('./../models/Users');
+let User1 = require('../model/Users');
 let User;
 let login = 0;
 let signup = 0;
